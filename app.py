@@ -383,7 +383,7 @@ elif menu == "2. EDA Lengkap":
         # --- B. TABEL STATISTIK DETIL ---
         st.subheader("2. Detail Statistik")
         
-        with st.expander("📖 Cara Membaca Tabel Ini (Bahasa Manusia)", expanded=False):
+        with st.expander("📖 Cara Membaca Tabel Ini", expanded=False):
             st.info("""
             **Fokus pada 2 hal ini saja:**
             1.  **Mean (Rata-rata) vs 50% (Nilai Tengah):** * Jika **Mean jauh lebih besar** dari 50%, berarti ada segelintir "Kota Raksasa" yang angkanya ekstrem tinggi, sementara mayoritas daerah angkanya kecil. Ini tanda **ketimpangan**.
